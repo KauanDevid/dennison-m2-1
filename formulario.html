@@ -17,6 +17,30 @@
             <label>Informe sua senha<input type="password" name="senha" id="senha" required></label><br>
             <label>Informe seu email<input type="email" name="email" id="email" placeholder="exemplo@gamil.com"></label><br>
             <label>Informe sua data de nascimento<input type="date" name="nasc" id="nasc"></label><br>
+
+            <b>Qual seu meio de transporte primario?</b><br>
+            <label><input type="radio" name="transporte" id="transporte" value="carro">Carro</label><br>
+            <label><input type="radio" name="transporte" id="transporte" value="bike">bike</label><br>
+            <label><input type="radio" name="transporte" id="transporte" value="lancha">Lancha</label><br>
+
+            <b>Qual seu meio de transporte segundario?</b><br>
+            <label><input type="checkbox" name="bus" id="bus" value="ônibus">Ônibus</label><br>
+            <label><input type="checkbox" name="bus" id="bus" value="avião">Avião</label><br>
+            <label><input type="checkbox" name="bus" id="bus" value="barco">Barco</label><br>
+
+            <label for="estado">Informe seu estado</label><br>
+            <select name="estado">
+                <option value="PE" selected/>Pernambuco
+                <option value="BA"/>Bahia
+                <option value="PB"/>Paraiba
+            </select><br>
+
+            <b>observação</b><br>
+            <textarea rows="18" cols="38">
+                O gato estava brincando
+            </textarea><br><br>
+
+            <input type="reset">
             <input type="submit" value="enviar">
         </fieldset>
         
