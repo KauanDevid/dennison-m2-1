@@ -10,47 +10,66 @@
 
     <h1>Formulario de Envio de Dados</h1>
 
-    <p>
-        <fieldset>
-            <form action="index.html" method="post">
-                <legend>Envio de Arquivo</legend>
-                <input type="file" name="anexar" id="anexar"><br>
-                <input type="submit" value="enviar">
-            </form>
-        </fieldset>
-    </p>
-    <p>
-        <fieldset>
-            <form action="formulario.html" method="post">
-                <legend>Google</legend>
-                <input type="search" name="buscar" id="buscar"><br>
-                <input type="submit" value="Go">
-            </form>
-        </fieldset>
-    </p>
-    <p>
-        <fieldset>
-            <form action="formulario.html" method="post">
-                <legend>URL</legend>
-                <input type="url" name="url" id="url" placeholder="http://exemplo.com"><br>
-                <input type="submit" value="Enviar">
-            </form>
-        </fieldset>
-    </p>
-    <p>
-        <fieldset>
-            <form action="formulario.html" method="post">
-                <legend>Assine Nosso Canal</legend><br>
-                <label for="email">Digite seu email <br><input type="email" name="email" id="email"/></label><br>
-                <input type="image" src="logo.png" alt="logo teste" width="150px">
-            </form>
-        </fieldset>
-    </p>
-    <p>
-        <video src=""></video>
-    </p>
-    <p>
-        <audio src=""></audio>
-    </p>
+    <div id="arquivo">
+        <p>
+            <fieldset>
+                <form action="index.html" method="post">
+                    <legend>Envio de Arquivo</legend>
+                    <input type="file" name="anexar" id="anexar"><br>
+                    <input type="submit" value="enviar">
+                </form>
+            </fieldset>
+        </p>
+    </div>
+    <div id="pesquisa" > 
+        <p>
+            <fieldset>
+                <form action="formulario.html" method="post">
+                    <legend>Google</legend>
+                    <input type="search" name="buscar" id="buscar"><br>
+                    <input type="submit" value="Go">
+                </form>
+            </fieldset>
+        </p>
+    </div>
+    <div id="urlsites">
+        <p>
+            <fieldset>
+                <form action="formulario.html" method="post">
+                    <legend>URL</legend>
+                    <input type="url" name="url" id="url" placeholder="http://exemplo.com"><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+        </p>
+    </div>
+    <div id="assinatura">
+        <p>
+            <fieldset>
+                <form action="formulario.html" method="post">
+                    <legend>Assine Nosso Canal</legend><br>
+                    <label for="email">Digite seu email <br><input type="email" name="email" id="email"/></label><br>
+                    <input type="image" src="logo.png" alt="logo teste" width="150px">
+                </form>
+            </fieldset>
+        </p>
+    </div>
+    <div id="video/audio">
+        <p>
+            <video src="audio/video/videoplayback.mp4" controls loop></video>
+        </p>
+        <p>
+            <audio src="audio/video/a-risada-do-kiko.mp3" controls></audio>
+        </p>
+    </div>
+    <div id="loc">
+        <p>
+            <label>Nossa Localização</label><br>
+            <iframe src="https://www.google.com/maps/place/Escola+T%C3%A9cnica+Estadual+Gin%C3%A1sio+Pernambucano/@-8.0515981,-34.8827931,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab187db07a840d:0xd02075371cbf769f!8m2!3d-8.0516034!4d-34.8802182!16s%2Fg%2F11b6nrdl9m?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D" frameborder="0"></iframe>
+        </p>
+    </div>
+    <div id="gif">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG43Ym9qNWRjY2Y5cjY1d215YnRkMnMzZGllbGh0dDl5ZHhrZDF3NyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/fJHbyksRyJQGZ8GiVF/giphy.gif" alt="" width="200px">
+    </div>
 </body>
 </html>
