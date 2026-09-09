@@ -1,0 +1,56 @@
+/* Reset de algunns valores da pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Corpo da pagina*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: #ccc;
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV1azd0dW84cnhuNHR6ZndhODlwcmFicWVrajh0MjRvOWVmbXd5MCZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/H5C8CevNMbpBqNqFjl/giphy.gif);
+    background-attachment: fixed;
+    background-position: ;
+}
+
+header {
+    padding: 2rem;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #ccc;
+}
+
+/*Algumas tags mais simples*/
+hr {
+    background-color: darkred;
+}
+h1 {
+    color: darkred;
+    font-size: 50px;
+}
+h2 {
+    color: rgb(202, 47, 47);
+    font-size: 25px;
+}
+h4 {
+    color: darkblue;
+    font-size: 18px;
+}
+p {
+    color: darkgoldenrod;
+    font-size: 12px;
+}
