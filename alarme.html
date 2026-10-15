@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .caixa{
+            text-align: center;
+        }
+        button {
+            background-color: green;
+            color: white;
+            font-size: 25px;
+            padding: 0.5rem;
+            border: 0;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(0, 131, 0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="atvd">Atividade de <span>Dennison</span></h1>
+
+        <div class="links">
+            <a href="index.html">Pagina 1</a>
+            <a href="1index.html">Pagina2</a>
+            <a href="tabela.html">Tabela</a>
+            <a href="cafeteria.html">Cafeteria</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="envidados.html">Dados</a>
+            <a class="eu" href="alarme.html">Alarme</a>
+        </div>
+    </header>
+        
+    <main>
+        <audio id="sound" src="audio/video/a-risada-do-kiko.mp3"></audio>
+
+        <div class="caixa">
+            <h2>Minutos:</h2>
+            <select name="minutos" id="minutos"></select>
+
+            <h2>Segundos:</h2>
+            <select name="segundos" id="segundos"></select>
+
+            <br><br>
+
+            <button id="comecar">Começar</button>
+
+            <div id="display">
+                <h3>00:00</h3>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts/alarme.js"></script>
+</body>
+</html>
